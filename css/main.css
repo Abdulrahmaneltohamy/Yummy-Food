@@ -72,6 +72,14 @@ body {
     width: fit-content;
 }
 
+/* &-------------------------------- */
+/* * search input */
+
+.search-inpt ::placeholder {
+    color: white;
+    opacity: .5;
+}
+
 /* & --------------------------------- */
 /* * loading screen */
 .loading-screen {

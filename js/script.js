@@ -311,12 +311,12 @@ function displaySearchInputs() {
   closeSideNav();
 
   document.getElementById("searchContainer").innerHTML = `
-  <div class="row py-5 g-3">
+  <div class="row py-5 g-3 search-inpt">
       <div class="col-md-6">
-        <input onkeyup="searchWithName(this.value)" class="form-control bg-transparent fw-bold text-white" type="text" placeholder="Search By Name">
+        <input onkeyup="searchWithName(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By Name">
       </div>
       <div class="col-md-6">
-        <input onkeyup="searchWithFirstLetter(this.value)" class="form-control bg-transparent fw-bold text-white" maxlength="1" type="text" placeholder="Search By First Letter">
+        <input onkeyup="searchWithFirstLetter(this.value)" class="form-control bg-transparent text-white" maxlength="1" type="text" placeholder="Search By First Letter">
       </div>
       </div>
   `
